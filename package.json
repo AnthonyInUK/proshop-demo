@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
+    "react-bootstrap": "^2.10.3",
+    "react-icons": "^5.2.1"
+  },
+  "name": "proshop",
+  "version": "2.0.0",
+  "description": "eCommerce application built with the mern stack",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyInUK/proshop-demo.git"
+  },
+  "author": "Anthony",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnthonyInUK/proshop-demo/issues"
+  },
+  "homepage": "https://github.com/AnthonyInUK/proshop-demo#readme",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4"
+  }
+}

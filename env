@@ -1,0 +1,4 @@
+NODE_ENV = development
+PORT = 8000
+MONGO_URI = mongodb+srv://anthony123:anthony123@cluster0.fauhxl8.mongodb.net/proshop?retryWrites=true&w=majority
+
